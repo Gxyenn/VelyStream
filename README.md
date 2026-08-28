@@ -1,296 +1,91 @@
-🎬 VelyStream
+VelyStream
 
-«Modern Anime Streaming App for Android
-Watch your favorite anime with a clean, fast, and cinematic experience.»
+«Anime Streaming, Simplified.»
 
-<p align="center">
-  <strong>VelyStream</strong> — Stream. Discover. Enjoy.
-</p>---
+VelyStream adalah aplikasi streaming anime dengan tampilan modern, ringan, dan fokus pada pengalaman pengguna yang sederhana.
 
-✨ About VelyStream
-
-VelyStream adalah aplikasi streaming anime Android yang dirancang dengan fokus pada pengalaman menonton yang simple, modern, cepat, dan nyaman.
-
-VelyStream menggunakan VelyDocs API sebagai sumber data anime dan menyediakan berbagai fitur untuk membuat pengalaman streaming terasa lebih praktis.
-
-🎯 Filosofi
-
-«Less clutter. More anime.»
-
-Tidak ada tampilan yang berlebihan. VelyStream dibuat supaya pengguna bisa menemukan anime, membuka detail, memilih episode, dan langsung menonton dengan pengalaman yang sederhana.
+Project ini masih dalam tahap pengembangan dan masih banyak fitur serta bagian yang perlu dikembangkan lebih lanjut.
 
 ---
 
-🚀 Features
+✦ Features
 
-- 🏠 Modern Home
-  
-  - Anime terbaru
-  - Anime populer
-  - Rekomendasi
-  - Tampilan cinematic
+- Modern & elegant interface
+- Anime streaming
+- Anime search
+- Anime information
+- Episode navigation
+- Responsive design
+- Lightweight experience
+- Powered by VelyDocs API
 
-- 🔎 Anime Search
-  
-  - Cari anime dengan cepat
-  - Hasil pencarian terintegrasi dengan VelyDocs API
-
-- 📖 Anime Details
-  
-  - Poster & thumbnail
-  - Judul anime
-  - Sinopsis
-  - Informasi episode
-  - Daftar episode
-
-- ▶️ Streaming Player
-  
-  - Custom video player
-  - Skip ±5 detik
-  - Progress video
-  - Episode navigation
-  - Kontrol player yang minimal dan clean
-
-- ❤️ Bookmark / Saved
-  
-  - Simpan anime favorit
-  - Akses kembali anime dengan mudah
-
-- 🕐 Watch History
-  
-  - Menyimpan anime yang pernah ditonton
-  - Menyimpan episode terakhir
-  - Menyimpan posisi/progress tontonan
-  - Melanjutkan dari posisi terakhir
-
-- 🔔 Anime Update Notification
-  
-  - Notifikasi ketika anime mendapatkan episode baru
-  - Backend dapat memantau update secara berkala
-  - Mendukung sistem subscription per anime
-
-- 🔄 App Update System
-  
-  - Mengecek versi terbaru aplikasi
-  - Memberikan pemberitahuan ketika update tersedia
-  - Mendukung optional update maupun force update
+«Fitur dapat berubah dan bertambah seiring perkembangan project.»
 
 ---
 
-🛠️ Technology
+⚡ Powered By
 
-VelyStream dibangun dengan pendekatan native Android dan menggunakan beberapa komponen berikut:
+VelyDocs
 
-Component| Usage
-Android| Mobile application
-Java / Android SDK| Application development
-VelyDocs API| Anime data & API
-Supabase| Backend, database & update monitoring
-Firebase FCM| Push notification
-GitHub Releases| APK distribution
+VelyStream menggunakan VelyDocs sebagai penyedia API untuk mengambil data anime dan informasi terkait.
+
+API Provider: VelyDocs
+API: [VelyDocs](VelyDocs.ai.studio)
 
 ---
 
-🌐 VelyDocs API
+🚧 Development Status
 
-VelyStream menggunakan VelyDocs API untuk mengambil data anime.
+VelyStream masih dalam tahap Active Development.
 
-API menangani kebutuhan seperti:
+Masih terdapat banyak hal yang sedang dan akan dikembangkan, termasuk peningkatan:
 
-- Anime listing
-- Anime details
-- Episode information
-- Recent updates
-- Streaming information
+- Performance
+- UI/UX
+- Streaming experience
+- Stability
+- Error handling
+- Additional features
 
-VelyDocs menjadi layer API antara VelyStream dan sumber data anime.
-
----
-
-🔔 Update Notification Architecture
-
-Sistem notifikasi update anime dapat berjalan walaupun aplikasi sedang tidak dibuka.
-
-VelyDocs API
-     │
-     ▼
-Supabase Scheduler
-     │
-     ▼
-Supabase Edge Function
-     │
-     ├── Check latest episodes
-     ├── Compare database state
-     └── Prevent duplicate notification
-     │
-     ▼
-Firebase FCM
-     │
-     ▼
-VelyStream Android
-     │
-     ▼
-🔔 New Episode
-
-Dengan pendekatan ini, pengecekan update tidak bergantung pada aplikasi Android yang sedang terbuka.
+Jika menemukan bug atau error, silakan laporkan agar dapat diperbaiki pada update berikutnya.
 
 ---
 
-📱 App Update System
+🐛 Bug Report
 
-VelyStream juga dapat menggunakan remote version checking.
+Menemukan error atau bug?
 
-VelyStream v1
-      │
-      ▼
-Check Supabase
-      │
-      ▼
-New version available?
-      │
-      ├── No → Continue
-      │
-      └── Yes
-           │
-           ▼
-      Update Dialog
-           │
-           ▼
-      GitHub Release
-           │
-           ▼
-      Install VelyStream v2
+Laporkan melalui Telegram: [Chat Me](t.me/Gxyenn969)
 
-Data seperti bookmark dan history dapat dipertahankan selama package name dan signing key aplikasi tetap sama.
+Sertakan informasi seperti:
+
+- Deskripsi error
+- Halaman/fitur yang bermasalah
+- Screenshot jika diperlukan
+- Device yang digunakan
 
 ---
 
-🎨 Design
+👨‍💻 Developer
 
-VelyStream menggunakan pendekatan desain:
+Gxyenn
 
-- Minimal
-- Modern
-- Cinematic
-- Clean
-- Dark-focused
-- Smooth navigation
-- Fokus pada artwork anime
-
-Inspirasi desain mengambil pendekatan aplikasi streaming modern dengan penyesuaian identitas VelyStream.
-
----
-
-📦 Distribution
-
-APK VelyStream didistribusikan melalui GitHub Releases.
-
-Setiap versi memiliki release tersendiri:
-
-Releases
-│
-├── v2.0.0
-│   └── VelyStream-v2.0.0.apk
-│
-├── v1.1.0
-│   └── VelyStream-v1.1.0.apk
-│
-└── v1.0.0
-    └── VelyStream-v1.0.0.apk
-
----
-
-🔐 Security
-
-API key yang bersifat rahasia tidak seharusnya ditanam langsung di APK.
-
-Untuk backend, secret dapat disimpan pada environment/secret storage sehingga tidak perlu diekspos kepada client.
-
-«Never expose private API keys inside the Android application.»
-
----
-
-📋 Requirements
-
-Untuk menjalankan project dari source:
-
-- Android Studio / Android development environment
-- Android SDK
-- Java / Gradle
-- VelyDocs API access
-- Supabase project jika menggunakan backend notification
-- Firebase project jika menggunakan FCM
-
----
-
-🧩 Project Structure
-
-VelyStream/
-│
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/
-│   │   │   ├── res/
-│   │   │   └── AndroidManifest.xml
-│   │   │
-│   │   └── ...
-│   │
-│   └── build.gradle
-│
-├── gradle/
-├── build.gradle
-├── settings.gradle
-└── README.md
-
----
-
-🗺️ Roadmap
-
-Current
-
-- [x] Anime browsing
-- [x] Anime search
-- [x] Anime details
-- [x] Episode list
-- [x] Streaming
-- [x] Bookmark
-- [x] Watch history
-- [x] Watch progress
-
-Planned
-
-- [ ] Per-anime notification subscription
-- [ ] Improved streaming resolver
-- [ ] Better recommendation system
-- [ ] More player customization
-- [ ] Performance improvements
-- [ ] Automatic app update detection
-- [ ] More streaming sources
+VelyStream dikembangkan dan dipelihara oleh Gxyenn.
 
 ---
 
 ⚠️ Disclaimer
 
-VelyStream is an independent application and is not affiliated with or endorsed by any anime studio, distributor, or streaming platform.
+VelyStream merupakan project yang masih dalam pengembangan.
 
-VelyStream itself does not claim ownership of third-party anime content.
-
-The application relies on external APIs and streaming sources. Availability and functionality may change depending on those external services.
+Ketersediaan data, streaming, dan fitur dapat berubah sewaktu-waktu tergantung pada API dan source yang digunakan.
 
 ---
 
-👨‍💻 Creator
+<div align="center">VelyStream
 
-VelyStream
-Created by Gxyenn
+Built with precision. Designed for anime.
 
-«Built with passion for anime and better mobile streaming.»
+"Gxyenn · VelyDocs · 2026"
 
----
-
-⭐ Support
-
-If you like VelyStream, consider giving the repository a ⭐ on GitHub.
-
-VelyStream — Your anime, your way. 🎬
+</div>
