@@ -1,91 +1,82 @@
-VelyStream
+# VelyStream
 
-«Anime Streaming, Simplified.»
+> **Anime, reimagined.**
 
-VelyStream adalah aplikasi streaming anime dengan tampilan modern, ringan, dan fokus pada pengalaman pengguna yang sederhana.
-
-Project ini masih dalam tahap pengembangan dan masih banyak fitur serta bagian yang perlu dikembangkan lebih lanjut.
+A modern anime streaming application built with a focus on simplicity, elegance, and a comfortable viewing experience.
 
 ---
 
-✦ Features
+## ✦ VelyStream
 
-- Modern & elegant interface
-- Anime streaming
-- Anime search
-- Anime information
-- Episode navigation
-- Responsive design
-- Lightweight experience
-- Powered by VelyDocs API
+VelyStream brings a clean and modern anime experience to Android.
 
-«Fitur dapat berubah dan bertambah seiring perkembangan project.»
+Designed to be simple, fast, and comfortable — without unnecessary clutter.
 
 ---
 
-⚡ Powered By
+## ✨ Features
 
-VelyDocs
-
-VelyStream menggunakan VelyDocs sebagai penyedia API untuk mengambil data anime dan informasi terkait.
-
-API Provider: VelyDocs
-API: [VelyDocs](VelyDocs.ai.studio)
-
----
-
-🚧 Development Status
-
-VelyStream masih dalam tahap Active Development.
-
-Masih terdapat banyak hal yang sedang dan akan dikembangkan, termasuk peningkatan:
-
-- Performance
-- UI/UX
-- Streaming experience
-- Stability
-- Error handling
-- Additional features
-
-Jika menemukan bug atau error, silakan laporkan agar dapat diperbaiki pada update berikutnya.
+- 🎬 Anime Streaming
+- 🔎 Anime Search
+- 🔖 Bookmark
+- 🕘 Watch History
+- 📥 Download
+- 💬 Comments & Replies
+- 🔔 Update Notifications
+- 🚀 Automatic App Updates
+- 🌙 Modern Dark UI
+- 📱 Android Optimized
 
 ---
 
-🐛 Bug Report
+## 🎨 Design
 
-Menemukan error atau bug?
+VelyStream follows a minimal and cinematic design philosophy.
 
-Laporkan melalui Telegram: [Chat Me](t.me/Gxyenn969)
+**Clean · Elegant · Modern · Comfortable**
 
-Sertakan informasi seperti:
-
-- Deskripsi error
-- Halaman/fitur yang bermasalah
-- Screenshot jika diperlukan
-- Device yang digunakan
+Every part of the interface is designed to keep the experience focused on what matters — watching anime.
 
 ---
 
-👨‍💻 Developer
+## 📲 Download
 
-Gxyenn
+Download the latest version from the **Releases** section of this repository.
 
-VelyStream dikembangkan dan dipelihara oleh Gxyenn.
-
----
-
-⚠️ Disclaimer
-
-VelyStream merupakan project yang masih dalam pengembangan.
-
-Ketersediaan data, streaming, dan fitur dapat berubah sewaktu-waktu tergantung pada API dan source yang digunakan.
+> Always use the latest available release.
 
 ---
 
-<div align="center">VelyStream
+## 👨‍💻 Developer
 
-Built with precision. Designed for anime.
+**Gxyenn**
 
-"Gxyenn · VelyDocs · 2026"
+Independent Developer & Creator of VelyStream.
 
-</div>
+---
+
+## ⚠️ Disclaimer
+
+VelyStream is an independent project.
+
+VelyStream does not claim ownership of third-party content, trademarks, images, or other materials that may be accessible through the application.
+
+All rights belong to their respective owners.
+
+If you are a copyright holder and have concerns regarding content accessible through VelyStream, please contact the respective content provider or rights holder.
+
+---
+
+## 📄 License
+
+VelyStream is provided as-is for personal and educational purposes.
+
+---
+
+<p align="center">
+
+**VelyStream**
+
+*Anime, reimagined.*
+
+</p>
